@@ -97,6 +97,7 @@ def visualize_data(df, plot_type, column1, column2=None):
 
         elif plot_type == '9':  # Table info
             print(df.info())
+            print(df.describe())
             return
 
         plt.show()
