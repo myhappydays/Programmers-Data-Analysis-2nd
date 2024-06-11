@@ -135,7 +135,7 @@ def visualize_data(df, plot_type, column1, column2=None):
 
 def main():
     """Main function to execute the data visualization tool."""
-    file_path = 'E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\data\\waze_app_dataset_transformed.csv'
+    file_path = 'E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\data\\BankChurners.csv'
 
     df = read_csv(file_path)
 
