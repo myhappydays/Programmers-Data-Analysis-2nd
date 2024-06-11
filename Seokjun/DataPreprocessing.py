@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 데이터 불러오기
-file_path = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\data\\BankChurners.csv"
+file_path = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\Seokjun\\data\\BankChurners.csv"
 data = pd.read_csv(file_path)
 
 # Attrition_Flag 전처리
@@ -60,5 +60,5 @@ data.drop(columns=columns_to_drop, inplace=True)
 print(data.head())
 
 if input("저장할래요? (Y / N) : ") == "Y":
-    output_file_path = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\data\\Preprocessed_BankChurners.csv"
+    output_file_path = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\Seokjun\\data\\Preprocessed_BankChurners.csv"
     data.to_csv(output_file_path, index=False)

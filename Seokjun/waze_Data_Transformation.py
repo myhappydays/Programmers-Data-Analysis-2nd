@@ -1,7 +1,7 @@
 import pandas as pd
 # import numpy as np
 
-file_path = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\data\\waze_app_dataset.csv"
+file_path = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\Seokjun\\data\\waze_app_dataset.csv"
 df = pd.read_csv(file_path)
 # df['label'].replace('', np.nan, inplace=True)
 # df = df.dropna(axis=0)
@@ -19,5 +19,5 @@ df['device'] = df['device'].map({'Android': 0, 'iPhone': 1})
 
 print(df.head())
 print(df.info())
-output_file_path = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\data\\waze_app_dataset_transformed.csv"
+output_file_path = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\Seokjun\\data\\waze_app_dataset_transformed.csv"
 df.to_csv(output_file_path, index=False)

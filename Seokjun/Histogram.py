@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import os
 
 # 데이터 불러오기
-file_path = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\data\\Preprocessed_BankChurners.csv"
+file_path = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\Seokjun\\data\\Preprocessed_BankChurners.csv"
 data = pd.read_csv(file_path)
 
 # 결과를 저장할 디렉토리 생성
-output_dir = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\images\\Histogram"
+output_dir = "E:\\2024 프로그래머스 데이터 분석 데브코스\\데이터 분석\\9주차\\2차프로젝트\\Programmer-Data-Analysis-2nd\\Seokjun\\images\\Histogram"
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
