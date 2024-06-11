@@ -6,7 +6,6 @@
 
 ## Notes 🗒️
 [프로젝트 노션 페이지](https://www.notion.so/prgrms/1-a82a9d40f5dc4b4f8bd667745ed17e31) <br>
-[보고서 노션 페이지](https://www.notion.so/1-67f1110396a54179b2d8be96039a7fb7)
 
 ---
 
